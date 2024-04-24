@@ -66,18 +66,30 @@ header h1 {
 }
 
 @-webkit-keyframes turningWheel {
-  to {
+  0% {
     -webkit-transform: 
       scale(var(--scale))
-      rotate(360deg);
-            transform: 
+      rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: 
       scale(var(--scale))
       rotate(360deg);
   }
 }
 
 @keyframes turningWheel {
-  to {
+  0% {
+    -webkit-transform: 
+      scale(var(--scale))
+      rotate(0deg);
+            transform: 
+      scale(var(--scale))
+      rotate(0deg);
+  }
+  
+  100% {
     -webkit-transform: 
       scale(var(--scale))
       rotate(360deg);

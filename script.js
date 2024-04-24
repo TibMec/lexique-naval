@@ -53,7 +53,7 @@
          voc.appendChild(ul);
       } else {
         console.log('Mot non trouvé');
-        termFr.parentElement.style.display = 'none';
+        // termFr.parentElement.style.display = 'none';
         voc.innerHTML = 'Mot non trouvé';
       }
     }

@@ -408,8 +408,8 @@ a {
 .grid-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 10px 1fr;
-  grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: minmax(150px, 1fr) 10px minmax(150px, 1fr);
+  grid-template-columns: minmax(150px, 1fr) minmax(150px, 1fr);
   gap: 10px;
 /*   position: relative; */
 }
@@ -505,3 +505,11 @@ a {
     place-content: center;
   }
 }
+/* 400px / 16px */
+@media (max-width: 25rem) {
+    .term-fr, .term-en {
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      hyphens: manual;
+    }
+  }

@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Arizonia&family=Libre+Franklin:wght@100;400;500;700&family=Pinyon+Script&family=Pirata+One&family=Ruthie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" >
+  </head>
+    <body>
+    <!-- Champ de recherche -->
+    <header id='top'>
+      <div class='title-bar'>
+        <div class='wheel-wrapper disappear'>
+          <div class='wheel'>
+            <div class='wheel center'>
+              <div class='bar-wrapper zero'>
+                <div class='bar'></div>
+                <div class='bar-knot'></div>
+              </div>
+              <div class='bar-wrapper un'>
+                <div class='bar'></div>
+                <div class='bar-knot'></div>
+              </div>
+              <div class='bar-wrapper deux'>
+                <div class='bar'></div>
+                <div class='bar-knot'></div>
+              </div>
+              <div class='bar-wrapper trois'>
+                <div class='bar'></div>
+                <div class='bar-knot'></div>
+              </div>
+              <div class='bar-wrapper quatre'>
+                <div class='bar'></div>
+                <div class='bar-knot'></div>
+              </div>
+              <div class='bar-wrapper cinq'>
+                <div class='bar'></div>
+                <div class='bar-knot'></div>
+              </div>
+              <div class='bar-wrapper six'>
+                <div class='bar'></div>
+                <div class='bar-knot'></div>
+              </div>
+              <div class='bar-wrapper sept'>
+                <div class='bar'></div>
+                <div class='bar-knot'></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1>Lexique naval français-anglais</h1>
+        <div class='wheel-wrapper'>
+          <div class='wheel'>
+            <div class='wheel center'>
+              <div class='bar-wrapper zero'>
+                <div class='bar'></div>
+                <div class='bar-knot'></div>
+              </div>
+              <div class='bar-wrapper un'>
+                <div class='bar'></div>
+                <div class='bar-knot'></div>
+              </div>
+              <div class='bar-wrapper deux'>
+                <div class='bar'></div>
+                <div class='bar-knot'></div>
+              </div>
+              <div class='bar-wrapper trois'>
+                <div class='bar'></div>
+                <div class='bar-knot'></div>
+              </div>
+              <div class='bar-wrapper quatre'>
+                <div class='bar'></div>
+                <div class='bar-knot'></div>
+              </div>
+              <div class='bar-wrapper cinq'>
+                <div class='bar'></div>
+                <div class='bar-knot'></div>
+              </div>
+              <div class='bar-wrapper six'>
+                <div class='bar'></div>
+                <div class='bar-knot'></div>
+              </div>
+              <div class='bar-wrapper sept'>
+                <div class='bar'></div>
+                <div class='bar-knot'></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </header>
+    <main>
+      
+      <div class='search-wrapper'>
+        <input type="text" id="searchInput" placeholder="Recherche rapide">
+        <p class='search-result'><span id='voc'></span></p>
+      </div>
+      
+      <ul class='letter-list'>
+        <li>
+          <a class='letter-link' href='#a'>A</a>
+        </li>
+        <li>
+          <a class='letter-link' href='#b'>B</a>
+        </li>
+        <li>
+          <a class='letter-link' href='#c'>C</a>
+        </li>
+        <li>
+          <a class='letter-link' href='#d'>D</a>
+        </li>
+        <li>
+          <a class='letter-link' href='#e'>E</a>
+        </li>
+        <li>
+          <a class='letter-link' href='#f'>F</a>
+        </li>
+        <li>
+          <a class='letter-link' href='#g'>G</a>
+        </li>
+        <li>
+          <a class='letter-link' href='#h'>H</a>
+        </li>
+        <li>
+          <a class='letter-link' href='#j'>J</a>
+        </li>
+        <li>
+          <a class='letter-link' href='#l'>L</a>
+        </li>
+        <li>
+          <a class='letter-link' href='#m'>M</a>
+        </li>
+        <li>
+          <a class='letter-link' href='#n'>N</a>
+        </li>
+        <li>
+          <a class='letter-link' href='#o'>O</a>
+        </li>
+        <li>
+          <a class='letter-link' href='#p'>P</a>
+        </li>
+        <li>
+          <a class='letter-link' href='#q'>Q</a>
+        </li>
+        <li>
+          <a class='letter-link' href='#r'>R</a>
+        </li>
+        <li>
+          <a class='letter-link' href='#s'>S</a>
+        </li>
+        <li>
+          <a class='letter-link' href='#t'>T</a>
+        </li>
+        <li>
+          <a class='letter-link' href='#v'>V</a>
+        </li>
+      </ul>
+      
+      <div class="grid-container">
+      
+        <div class="col fr">Français</div>
+        <div class="col en">Anglais</div>
+      
+        <div class='start-letter' id='a'>A</div>
+      
+        <div class="term-fr">Abattre</div>
+        <div class="term-en">To bear away</div>
+      
+        <div class="term-fr">Adonner</div>
+        <div class="term-en">To lift, to veer aft</div>
+      
+        <div class="term-fr">Accastillage de pont</div>
+        <div class="term-en">Deck fittings</div>
+      
+        <div class="term-fr">Affaler</div>
+        <div class="term-en">Haul down</div>
+      
+        <div class="term-fr">Aileron</div>
+        <div class="term-en">Skeg</div>
+      
+        <div class="term-fr">Alizés</div>
+        <div class="term-en">Trade winds</div>
+      
+        <div class="term-fr">Allure</div>
+        <div class="term-en">Point of sale</div>
+      
+        <div class="term-fr">Amarres</div>
+        <div class="term-en">Lashing, mooring lines</div>
+      
+        <div class="term-fr">Amer</div>
+        <div class="term-en">Seamark</div>
+      
+        <div class="term-fr">Amortisseur d'ancre</div>
+        <div class="term-en">Anchor Snubber</div>
+      
+        <div class="term-fr">Amure</div>
+        <div class="term-en">Tack</div>
+      
+        <div class="term-fr">Anguiller</div>
+        <div class="term-en">Hole, Limber</div>
+      
+        <div class="term-fr">Annexe</div>
+        <div class="term-en">Tender</div>
+      
+        <div class="term-fr">Appareiller</div>
+        <div class="term-en">To sail</div>
+      
+        <div class="term-fr">Ariser, prendre un ris</div>
+        <div class="term-en">To reef</div>
+      
+        <div class="term-fr">Arrière, vers la poupe</div>
+        <div class="term-en">Aft</div>
+      
+        <div class="term-fr">Artimon</div>
+        <div class="term-en">Mizzen Mast</div>
+      
+        <div class="term-fr">Assiette</div>
+        <div class="term-en">Trim</div>
+      
+        <div class="term-fr">Aurique, gréement </div>
+        <div class="term-en">Gaff rig</div>
+      
+        <div class="term-fr">Aussière </div>
+        <div class="term-en">Rope, Warp</div>
+      
+        <div class='start-letter' id='b'>B</div>
+      
+        <div class="term-fr">Babord</div>
+        <div class="term-en">Port</div>
+      
+        <div class="term-fr">Babord Amure</div>
+        <div class="term-en">Port tack</div>
+      
+        <div class="term-fr">Bague</div>
+        <div class="term-en">Bush</div>
+      
+        <div class="term-fr">Baille à mouillage</div>
+        <div class="term-en">Chain locker</div>
+      
+        <div class="term-fr">Balancine</div>
+        <div class="term-en">Topping lift</div>
+      
+        <div class="term-fr">Balcon avant</div>
+        <div class="term-en"> (bow) Pulpit</div>
+      
+        <div class="term-fr">Balcon arrière</div>
+        <div class="term-en">Pushpit</div>
+      
+        <div class="term-fr">Balisage</div>
+        <div class="term-en">Buoyage</div>
+      
+        <div class="term-fr">Barbotin</div>
+        <div class="term-en">Gipsy</div>
+      
+        <div class="term-fr">Barrer, Barreur</div>
+        <div class="term-en">To helm, Helmsman</div>
+      
+        <div class="term-fr">Barre (du gouvernail)</div>
+        <div class="term-en">Tiller</div>
+      
+        <div class="term-fr">Barre d'écoute, chariot de grand voile</div>
+        <div class="term-en">Mainsheet traveller</div>
+      
+        <div class="term-fr">Barre de flèche, barre de hune</div>
+        <div class="term-en">Spreader</div>
+      
+        <div class="term-fr">Barrot</div>
+        <div class="term-en">Deck beam</div>
+      
+        <div class="term-fr">Bastaque</div>
+        <div class="term-en">Runner, running backstay</div>
+      
+        <div class="term-fr">Bau, barrot</div>
+        <div class="term-en">Beam</div>
+      
+        <div class="term-fr">Beaupré</div>
+        <div class="term-en">Bow sprit</div>
+      
+        <div class="term-fr">Ber</div>
+        <div class="term-en">Cradle</div>
+      
+        <div class="term-fr">Biquille</div>
+        <div class="term-en">Bilge keel or twin-keel</div>
+      
+        <div class="term-fr">Bitte d’amarrage</div>
+        <div class="term-en">Bollard, Samson post</div>
+      
+        <div class="term-fr">Bloqueurs</div>
+        <div class="term-en">Clutches, Jammers, Cleats</div>
+      
+        <div class="term-fr">Bôme</div>
+        <div class="term-en">Boom</div>
+      
+        <div class="term-fr">Bordé</div>
+        <div class="term-en">Planking</div>
+      
+        <div class="term-fr">Border</div>
+        <div class="term-en">To harden sheets, to sheet in, to trim on</div>
+      
+        <div class="term-fr">Bordure</div>
+        <div class="term-en">Foot</div>
+      
+        <div class="term-fr">Bosco</div>
+        <div class="term-en">Bostwain</div>
+      
+        <div class="term-fr">Bossoirs</div>
+        <div class="term-en">Davits</div>
+      
+        <div class="term-fr">Bouchain</div>
+        <div class="term-en">Chine</div>
+      
+        <div class="term-fr">Bouge</div>
+        <div class="term-en">Camber</div>
+      
+        <div class="term-fr">Bout</div>
+        <div class="term-en">Rope</div>
+      
+        <div class="term-fr">Bout-dehors</div>
+        <div class="term-en">Bowsprit</div>
+      
+        <div class="term-fr">Bride</div>
+        <div class="term-en">Flange</div>
+      
+        <div class="term-fr">Bringuebale</div>
+        <div class="term-en">Crank</div>
+      
+        <div class="term-fr">Brion</div>
+        <div class="term-en">Knuckle (of the bow), Forefoot</div>
+      
+        <div class='start-letter' id='c'>C</div>
+      
+        <div class="term-fr">Cabestan</div>
+        <div class="term-en">Capstan, winch</div>
+      
+        <div class="term-fr">Cadène</div>
+        <div class="term-en">Chainplate</div>
+      
+        <div class="term-fr">Chandeliers</div>
+        <div class="term-en">Stanchion</div>
+      
+        <div class="term-fr">Cagnards</div>
+        <div class="term-en">Dodgers</div>
+      
+        <div class="term-fr">Cale</div>
+        <div class="term-en">Bilge</div>
+      
+        <div class="term-fr">Cambrure</div>
+        <div class="term-en">Camber</div>
+      
+        <div class="term-fr">Cape</div>
+        <div class="term-en">Heaving to, ahull</div>
+      
+        <div class="term-fr">Carène</div>
+        <div class="term-en">Hull</div>
+      
+        <div class="term-fr">Cardan</div>
+        <div class="term-en">Gimbal</div>
+      
+        <div class="term-fr">Carlingue</div>
+        <div class="term-en">Keelson</div>
+      
+        <div class="term-fr">Cellier</div>
+        <div class="term-en">Pantry</div>
+      
+        <div class="term-fr">Chandelier</div>
+        <div class="term-en">Stanchion</div>
+      
+        <div class="term-fr">Chasser (sur son ancre)</div>
+        <div class="term-en">To drag</div>
+      
+        <div class="term-fr">Chavirer</div>
+        <div class="term-en">Capsize</div>
+      
+        <div class="term-fr">Chaumard</div>
+        <div class="term-en">Fair lead</div>
+      
+        <div class="term-fr">Choquer</div>
+        <div class="term-en">To ease off</div>
+      
+        <div class="term-fr">Chute d'une voile</div>
+        <div class="term-en">Leech or leach</div>
+      
+        <div class="term-fr">Cloison</div>
+        <div class="term-en">Bulkhead</div>
+      
+        <div class="term-fr">Coinceur</div>
+        <div class="term-en">Cleat cam</div>
+      
+        <div class="term-fr">Coqueron</div>
+        <div class="term-en">Lazarette</div>
+      
+        <div class="term-fr">Corps-mort</div>
+        <div class="term-en">Moorings</div>
+      
+        <div class="term-fr">Cosse</div>
+        <div class="term-en">Hard eye</div>
+      
+        <div class="term-fr">Côtre (gréement)</div>
+        <div class="term-en">Cutter</div>
+      
+        <div class="term-fr">Coupée</div>
+        <div class="term-en">Gangway</div>
+      
+        <div class="term-fr">Couple</div>
+        <div class="term-en">Frame</div>
+      
+        <div class="term-fr">Coursive</div>
+        <div class="term-en">Passage way</div>
+      
+        <div class="term-fr">Crapaudine</div>
+        <div class="term-en">Center or bed plate</div>
+      
+        <div class="term-fr">Crépine</div>
+        <div class="term-en">Strainer</div>
+      
+        <div class="term-fr">Croche-pied (effet)</div>
+        <div class="term-en">Broaching</div>
+      
+        <div class='start-letter' id='d'>D</div>
+      
+        <div class="term-fr">Dalots</div>
+        <div class="term-en">Scupper</div>
+      
+        <div class="term-fr">Davier</div>
+        <div class="term-en">Bow Roller</div>
+      
+        <div class="term-fr">Défenses</div>
+        <div class="term-en">Fenders</div>
+      
+        <div class="term-fr">Déferlante</div>
+        <div class="term-en">Breakers</div>
+      
+        <div class="term-fr">Délaminage</div>
+        <div class="term-en">Delaminate</div>
+      
+        <div class="term-fr">Delphinière</div>
+        <div class="term-en">Bow nose, Pulpit</div>
+      
+        <div class="term-fr">Démanilleur</div>
+        <div class="term-en">Shackle opener</div>
+      
+        <div class="term-fr">Dérive</div>
+        <div class="term-en">Drift, Daggerboard</div>
+      
+        <div class="term-fr">Dériveur intégral</div>
+        <div class="term-en">Center-boarder or lifting keel boat</div>
+      
+        <div class="term-fr">Descente</div>
+        <div class="term-en">Companion way</div>
+      
+        <div class="term-fr">Dévidoir</div>
+        <div class="term-en">Drum</div>
+      
+        <div class="term-fr">Dorade</div>
+        <div class="term-en">Air vent</div>
+      
+        <div class="term-fr">Dormant (gréement)</div>
+        <div class="term-en">Standing rigging</div>
+      
+        <div class="term-fr">Drisse</div>
+        <div class="term-en">Halyard</div>
+      
+        <div class="term-fr">Drosse</div>
+        <div class="term-en">Steering cable or chain</div>
+      
+        <div class='start-letter' id='e'>E</div>
+      
+        <div class="term-fr">Échantillonnages</div>
+        <div class="term-en">Scantlings</div>
+      
+        <div class="term-fr">Ecoper/Ecope</div>
+        <div class="term-en">To bail/Bailer, scoop</div>
+      
+        <div class="term-fr">Ecoute</div>
+        <div class="term-en">Sheet</div>
+      
+        <div class="term-fr">Emerillon</div>
+        <div class="term-en">Swivel</div>
+      
+        <div class="term-fr">Emmagasineur</div>
+        <div class="term-en">Flat Drum Furler</div>
+      
+        <div class="term-fr">Empanneur</div>
+        <div class="term-en">To Gybe</div>
+      
+        <div class="term-fr">Encalminé (être)</div>
+        <div class="term-en">To be encalmed</div>
+      
+        <div class="term-fr">Endrailleur</div>
+        <div class="term-en">To hank</div>
+      
+        <div class="term-fr">Enrouleur</div>
+        <div class="term-en">Roller furler, drum furler, furler</div>
+      
+        <div class="term-fr">Envoyer</div>
+        <div class="term-en">To send aloft</div>
+      
+        <div class="term-fr">Eolienne</div>
+        <div class="term-en">Wind generator</div>
+      
+        <div class="term-fr">Equipets</div>
+        <div class="term-en">Compartment, cubby</div>
+      
+        <div class="term-fr">Erre</div>
+        <div class="term-en">Way</div>
+      
+        <div class="term-fr">Epissure</div>
+        <div class="term-en">Splice</div>
+      
+        <div class="term-fr">Epontille</div>
+        <div class="term-en">Pillar, (compression)Post</div>
+      
+        <div class="term-fr">Escale (faire)</div>
+        <div class="term-en">To call at</div>
+      
+        <div class="term-fr">Estran</div>
+        <div class="term-en">Foreshore</div>
+      
+        <div class="term-fr">Estrope</div>
+        <div class="term-en">Strop</div>
+      
+        <div class="term-fr">Etai</div>
+        <div class="term-en">Stay, Forestay</div>
+      
+        <div class="term-fr">Etambot (Tube d')</div>
+        <div class="term-en">Stern post, stern tube</div>
+      
+        <div class="term-fr">Etambrai</div>
+        <div class="term-en">Mast hole</div>
+      
+        <div class="term-fr">Etarquer</div>
+        <div class="term-en">To harden up</div>
+      
+        <div class="term-fr">Etrave</div>
+        <div class="term-en">Bow</div>
+      
+        <div class="term-fr">Etrave, angle d'</div>
+        <div class="term-en">Stem rake</div>
+      
+        <div class='start-letter' id='f'>F</div>
+      
+        <div class="term-fr">Faseyer</div>
+        <div class="term-en">To lift, to shiver</div>
+      
+        <div class="term-fr">Fardage</div>
+        <div class="term-en">Windage</div>
+      
+        <div class="term-fr">Fargues (par ex. de table)</div>
+        <div class="term-en">Fiddles</div>
+      
+        <div class="term-fr">Fargue (rail de)</div>
+        <div class="term-en">Toe rail</div>
+      
+        <div class="term-fr">Fasseyer</div>
+        <div class="term-en">Shiver</div>
+      
+        <div class="term-fr">Fémelots</div>
+        <div class="term-en">Gudgeons</div>
+      
+        <div class="term-fr">Filière</div>
+        <div class="term-en">Guard line</div>
+      
+        <div class="term-fr">Filoir</div>
+        <div class="term-en">Fairlead</div>
+      
+        <div class="term-fr">Flamme</div>
+        <div class="term-en">Pennant</div>
+      
+        <div class="term-fr">Flot</div>
+        <div class="term-en">Flow</div>
+      
+        <div class="term-fr">Foc</div>
+        <div class="term-en">Jib</div>
+      
+        <div class="term-fr">Fourreau de latte</div>
+        <div class="term-en">Batten pocket</div>
+      
+        <div class="term-fr">Franc-bord</div>
+        <div class="term-en">Freeboard</div>
+      
+        <div class="term-fr">Frégatage</div>
+        <div class="term-en">Tumblehome</div>
+      
+        <div class='start-letter' id='g'>G</div>
+      
+        <div class="term-fr">Gaffe</div>
+        <div class="term-en">Boathook</div>
+      
+        <div class="term-fr">Galbord</div>
+        <div class="term-en">Garboard</div>
+      
+        <div class="term-fr">Galhauban</div>
+        <div class="term-en">Intermediate shrouds</div>
+      
+        <div class="term-fr">Gendarme</div>
+        <div class="term-en">Hairy wire</div>
+      
+        <div class="term-fr">Girouette</div>
+        <div class="term-en">Wind vane</div>
+      
+        <div class="term-fr">Gîte</div>
+        <div class="term-en">Heeling</div>
+      
+        <div class="term-fr">Godille</div>
+        <div class="term-en">Scull</div>
+      
+        <div class="term-fr">Goélette</div>
+        <div class="term-en">Schooner</div>
+      
+        <div class="term-fr">Gouvernail</div>
+        <div class="term-en">Rudder</div>
+      
+        <div class="term-fr">Gréement courant</div>
+        <div class="term-en">Running rigging</div>
+      
+        <div class="term-fr">Gréement de fortune</div>
+        <div class="term-en">Jury rig</div>
+      
+        <div class="term-fr">Gueuse</div>
+        <div class="term-en">Pig</div>
+      
+        <div class="term-fr">Guindant</div>
+        <div class="term-en">Luff</div>
+      
+        <div class="term-fr">Guindeau</div>
+        <div class="term-en">Anchor Winch or Windlass</div>
+      
+        <div class='start-letter' id='h'>H</div>
+      
+        <div class="term-fr">Hale-bas</div>
+        <div class="term-en">Boom vang, downhaul, kicking strap, kicker</div>
+      
+        <div class="term-fr">Hauban</div>
+        <div class="term-en">Shroud</div>
+      
+        <div class="term-fr">Hauts-fonds</div>
+        <div class="term-en">Shallows</div>
+      
+        <div class="term-fr">Hiloires</div>
+        <div class="term-en">Coamings</div>
+      
+        <div class="term-fr">Hisser</div>
+        <div class="term-en">Hoist</div>
+      
+        <div class="term-fr">Houle</div>
+        <div class="term-en">Swell</div>
+      
+        <div class="term-fr">Hublot</div>
+        <div class="term-en">Porthole</div>
+      
+        <div class='start-letter' id='j'>J</div>
+      
+        <div class="term-fr">Jas (ancre)</div>
+        <div class="term-en">(anchor) Stock</div>
+      
+        <div class="term-fr">Jaumière, tube de</div>
+        <div class="term-en">Rudder tube</div>
+      
+        <div class="term-fr">Jetée</div>
+        <div class="term-en">Mole</div>
+      
+        <div class="term-fr">Jupe arrière</div>
+        <div class="term-en">Sugar scoop (stern)</div>
+      
+        <div class="term-fr">Jusant</div>
+        <div class="term-en">Ebb</div>
+      
+        <div class='start-letter' id='l'>L</div>
+      
+        <div class="term-fr">Laize</div>
+        <div class="term-en">Panel</div>
+      
+        <div class="term-fr">Latte forcée</div>
+        <div class="term-en">Full batten</div>
+      
+        <div class="term-fr">Lège (déplacement)</div>
+        <div class="term-en">Light (displacement)</div>
+      
+        <div class="term-fr">Lest</div>
+        <div class="term-en">Ballast</div>
+      
+        <div class="term-fr">Lignes, tracés de carène</div>
+        <div class="term-en">Sections and Buttocks</div>
+      
+        <div class="term-fr">Lisse</div>
+        <div class="term-en">Stringer</div>
+      
+        <div class="term-fr">Liston</div>
+        <div class="term-en">Sheer rail guard</div>
+      
+        <div class="term-fr">Livet</div>
+        <div class="term-en">Sheerline</div>
+      
+        <div class="term-fr">Lof (Partir au lof) </div>
+        <div class="term-en">To broach</div>
+      
+        <div class="term-fr">Lofer</div>
+        <div class="term-en">To luff up</div>
+      
+        <div class="term-fr">Longe</div>
+        <div class="term-en">Tether</div>
+      
+        <div class="term-fr">Louvoyage</div>
+        <div class="term-en">Tacking</div>
+      
+        <div class="term-fr">Lover (cordage)</div>
+        <div class="term-en">To coil</div>
+      
+        <div class='start-letter' id='m'>M</div>
+      
+        <div class="term-fr">Manille</div>
+        <div class="term-en">Shackle</div>
+      
+        <div class="term-fr">Manœuvre (cordage)</div>
+        <div class="term-en">Working rope</div>
+      
+        <div class="term-fr">Marée</div>
+        <div class="term-en">Tide</div>
+      
+        <div class="term-fr">Marnage</div>
+        <div class="term-en">Tidal range</div>
+      
+        <div class="term-fr">Marsouiner</div>
+        <div class="term-en">To porpoise</div>
+      
+        <div class="term-fr">Martingale</div>
+        <div class="term-en">Dolphin striker</div>
+      
+        <div class="term-fr">Matosser</div>
+        <div class="term-en">Tacting gear</div>
+      
+        <div class="term-fr">Mèche de gouvernail</div>
+        <div class="term-en">Rudder stock, shaft, spindle</div>
+      
+        <div class="term-fr">Molle</div>
+        <div class="term-en">Slack</div>
+      
+        <div class="term-fr">Moment ou couple de redressement</div>
+        <div class="term-en">Righting Moment, RM</div>
+      
+        <div class="term-fr">Monotypes</div>
+        <div class="term-en">One-design</div>
+      
+        <div class="term-fr">Mortes-eaux</div>
+        <div class="term-en">Neap</div>
+      
+        <div class="term-fr">Mouillage</div>
+        <div class="term-en">Mooring</div>
+      
+        <div class='start-letter' id='n'>N</div>
+      
+        <div class="term-fr">Nable de pont</div>
+        <div class="term-en">Deck fill</div>
+      
+        <div class="term-fr">Nerf de chute</div>
+        <div class="term-en">Leach line</div>
+      
+        <div class="term-fr">Noeud de chaise</div>
+        <div class="term-en">Bowline knot</div>
+      
+        <div class='start-letter' id='o'>O</div>
+      
+        <div class="term-fr">Orin</div>
+        <div class="term-en">Rope buoy</div>
+      
+        <div class="term-fr">Orthodromie</div>
+        <div class="term-en">Great circle sailing</div>
+      
+        <div class='start-letter' id='p'>P</div>
+      
+        <div class="term-fr">Panneaux de pont</div>
+        <div class="term-en">(deck) Hatches</div>
+      
+        <div class="term-fr">Pare-battage</div>
+        <div class="term-en">Fender</div>
+      
+        <div class="term-fr">Passe-coque</div>
+        <div class="term-en">Sea-cock</div>
+      
+        <div class="term-fr">Pataras</div>
+        <div class="term-en">Backstay</div>
+      
+        <div class="term-fr">Patte d'oie</div>
+        <div class="term-en">Briddle</div>
+      
+        <div class="term-fr">Paumelle</div>
+        <div class="term-en">Sailmaker's palm</div>
+      
+        <div class="term-fr">Pavois</div>
+        <div class="term-en">Bulwarks</div>
+      
+        <div class="term-fr">Penon</div>
+        <div class="term-en">Pennant, Telltale</div>
+      
+        <div class="term-fr">Pied de pilote</div>
+        <div class="term-en">Safety margin</div>
+      
+        <div class="term-fr">Pinoches</div>
+        <div class="term-en">Cones</div>
+      
+        <div class="term-fr">Plomb de sonde</div>
+        <div class="term-en">Sounding line</div>
+      
+      
+        <div class="term-fr">Point d'écoute</div>
+        <div class="term-en">Clew</div>
+      
+        <div class="term-fr">Porque</div>
+        <div class="term-en">Frame</div>
+      
+        <div class="term-fr">Pot au noir</div>
+        <div class="term-en">Doldrums</div>
+      
+        <div class="term-fr">Poulie</div>
+        <div class="term-en">Block</div>
+      
+        <div class="term-fr">Poupe</div>
+        <div class="term-en">Stern</div>
+      
+        <div class="term-fr">Poupée</div>
+        <div class="term-en">Drum</div>
+      
+        <div class="term-fr">Poutre navire</div>
+        <div class="term-en">Hull girder</div>
+      
+        <div class="term-fr">Près</div>
+        <div class="term-en">On the wind, close-hauled</div>
+      
+        <div class="term-fr">Presse-étoupe (d'arbre)</div>
+        <div class="term-en">(shaft) Seal, stern gland</div>
+      
+      
+        <div class="term-fr">Proue</div>
+        <div class="term-en">Bow</div>
+      
+        <div class="term-fr">Puisard</div>
+        <div class="term-en">Sump</div>
+      
+        <div class="term-fr">Puits de dérive</div>
+        <div class="term-en">Centre-board case, dagger-board casing or trunk</div>
+      
+        <div class="term-fr">Purge</div>
+        <div class="term-en">Drain, bleed</div>
+      
+        <div class='start-letter' id='q'>Q</div>
+      
+        <div class="term-fr">Quille</div>
+        <div class="term-en">Keel</div>
+      
+        <div class='start-letter' id='r'>R</div>
+      
+        <div class="term-fr">Ragage</div>
+        <div class="term-en">Chafing</div>
+      
+        <div class="term-fr">Ralingue</div>
+        <div class="term-en">Bolt rope</div>
+      
+        <div class="term-fr">Rames</div>
+        <div class="term-en">Oars</div>
+      
+        <div class="term-fr">Réa</div>
+        <div class="term-en">Sheave</div>
+      
+        <div class="term-fr">Refuser</div>
+        <div class="term-en">To head</div>
+      
+        <div class="term-fr">Réglage des voiles, régleur</div>
+        <div class="term-en">Trim, trimmer</div>
+      
+        <div class="term-fr">Régulateur d'allures</div>
+        <div class="term-en">Self-steering gear or windvane</div>
+      
+        <div class="term-fr">Retenue (de bôme)</div>
+        <div class="term-en">Preventer</div>
+      
+        <div class="term-fr">Ridoir</div>
+        <div class="term-en">Turnbuckle</div>
+      
+        <div class="term-fr">Ris</div>
+        <div class="term-en">Reef</div>
+      
+        <div class="term-fr">Risée</div>
+        <div class="term-en">Puff, lurry, squall</div>
+      
+        <div class="term-fr">Roulis</div>
+        <div class="term-en">Roll</div>
+      
+        <div class='start-letter' id='s'>S</div>
+      
+        <div class="term-fr">Safran</div>
+        <div class="term-en">Rudder</div>
+      
+        <div class="term-fr">Sancir</div>
+        <div class="term-en">To pitchpole</div>
+      
+        <div class="term-fr">Sous-le-vent</div>
+        <div class="term-en">Leeward</div>
+      
+        <div class="term-fr">Soute à voiles</div>
+        <div class="term-en">Sail locker</div>
+      
+        <div class="term-fr">Soute avant</div>
+        <div class="term-en">Forepeak</div>
+      
+        <div class="term-fr">Stick</div>
+        <div class="term-en">Tiller extension</div>
+      
+        <div class="term-fr">Suédoise (grand voile)</div>
+        <div class="term-en">Storm trysail</div>
+      
+        <div class="term-fr">Support (de winch)</div>
+        <div class="term-en">(winch) Bracket</div>
+      
+        <div class="term-fr">Surbaux</div>
+        <div class="term-en">Hatch Frames, deck trim</div>
+      
+        <div class="term-fr">Surliure</div>
+        <div class="term-en">Whipping</div>
+      
+        <div class='start-letter' id='t'>T</div>
+      
+        <div class="term-fr">Tableau arrière</div>
+        <div class="term-en">Transom</div>
+      
+        <div class="term-fr">Talonner</div>
+        <div class="term-en">To touch</div>
+      
+        <div class="term-fr">Tanguer</div>
+        <div class="term-en">To pitch</div>
+      
+        <div class="term-fr">Tangon</div>
+        <div class="term-en">(spinnaker) Pole</div>
+      
+        <div class="term-fr">Taquet, taquet coinceur</div>
+        <div class="term-en">Cleat, Clam cleat</div>
+      
+        <div class="term-fr">Taud</div>
+        <div class="term-en">Awning</div>
+      
+        <div class="term-fr">Timonerie</div>
+        <div class="term-en">Wheelhouse, Pilothouse</div>
+      
+        <div class="term-fr">Tirant d'air</div>
+        <div class="term-en">Air draft</div>
+      
+        <div class="term-fr">Tirant d'eau</div>
+        <div class="term-en">Draft</div>
+      
+        <div class="term-fr">Tirer des bords</div>
+        <div class="term-en">To tack</div>
+      
+        <div class="term-fr">Toile antiroulis</div>
+        <div class="term-en">Leecloth</div>
+      
+        <div class="term-fr">Tonture du pont</div>
+        <div class="term-en">Sheer line</div>
+      
+        <div class="term-fr">Toronner</div>
+        <div class="term-en">To strand</div>
+      
+        <div class="term-fr">Torons (d'un câble ou câblot) </div>
+        <div class="term-en">Wire strands</div>
+      
+        <div class="term-fr">Tourmentin</div>
+        <div class="term-en">Storm jib</div>
+      
+        <div class="term-fr">Travers (par le)</div>
+        <div class="term-en">Abeam</div>
+      
+        <div class="term-fr">Trainard</div>
+        <div class="term-en">Sea drogue</div>
+      
+        <div class="term-fr">Tribord</div>
+        <div class="term-en">Starboard</div>
+      
+        <div class="term-fr">Tribord amures</div>
+        <div class="term-en">Starboard tack</div>
+      
+        <div class="term-fr">Trinquette</div>
+        <div class="term-en">Staysail</div>
+      
+        <div class="term-fr">Tulipage</div>
+        <div class="term-en">Flare</div>
+      
+        <div class='start-letter' id='v'>V</div>
+      
+        <div class="term-fr">Vague d'étrave </div>
+        <div class="term-en">Bow wave</div>
+      
+        <div class="term-fr">Vaigrage</div>
+        <div class="term-en">Planking</div>
+      
+        <div class="term-fr">Vanne</div>
+        <div class="term-en">Seacock</div>
+      
+        <div class="term-fr">Varangue</div>
+        <div class="term-en">Floor</div>
+      
+        <div class="term-fr">(au) Vent</div>
+        <div class="term-en">To windward</div>
+      
+        <div class="term-fr">(sous le) Vent</div>
+        <div class="term-en">To leeward</div>
+      
+        <div class="term-fr">Vent arrière</div>
+        <div class="term-en">Running</div>
+      
+        <div class="term-fr">Vent debout</div>
+        <div class="term-en">Wind ahead</div>
+      
+        <div class="term-fr">Vent vrai</div>
+        <div class="term-en">True wind</div>
+      
+        <div class="term-fr">Verge</div>
+        <div class="term-en">Anchor shank</div>
+      
+        <div class="term-fr">Virement</div>
+        <div class="term-en">Tack</div>
+      
+        <div class="term-fr">Virer (de bord)</div>
+        <div class="term-en">To tack, go about, change tack</div>
+      
+        <div class="term-fr">Vit-de-mulet</div>
+        <div class="term-en">Gooseneck</div>
+      
+        <div class="term-fr">Vives-eaux</div>
+        <div class="term-en">Spring</div>
+      
+        <div class="term-fr">Voile lattée</div>
+        <div class="term-en">Full batten sail</div>
+      
+        <!-- Ajoutez d'autres termes ici -->
+      </div>
+      
+    </main>
+  
+      <a class='button' href='#top'>
+        <button class='button-wrapper'>Top
+        </button>
+      </a>
+      <script src="script.js"></script>
+  </body>
+  
+</html>

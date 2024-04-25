@@ -510,6 +510,6 @@ a {
     .term-fr, .term-en {
       word-wrap: break-word;
       overflow-wrap: break-word;
-      hyphens: manual;
+      hyphens: auto;
     }
   }
